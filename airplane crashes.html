@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+    <link rel="stylesheet" href="testing.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>AirPlaneCrashes Analysis</h1>
+                <br/><br/>
+                <p>What can be improved</p>
+                <ul>
+                    <li>A significant number of crashes involving Douglas and Boeing series aircraft occurred due to adverse weather conditions.</li>
+                    <li>Enhancing navigation systems and directional communication could help prevent such accidents</li>
+                    <li>During training flights, injuries were not limited to crew members on board but also affected individuals on the ground. Conducting these sessions in sparsely populated or uninhabited areas would be safer.</li>
+                    <li>Crew members should be trained to thoroughly check passengers and ensure they do not carry fire-hazardous items onboard.</li>
+                    <li>To view more dashboards visit my tableau profile.</li>
+                </ul>
+            
+                <a href="index.html"><button class="button">Back</button></a>
+            </div>
+            <div class="col-lg-6 mt-2">
+                <img src="assets/AirPlane Crashes Analysis - Dashboard.png" class="img-thumbnail" >
+            </div>
+                
+        </div>
+        
+        <div class="tableau">
+            <tableau-viz id="tableauViz"       
+        src='https://public.tableau.com/views/AirPlaneCrashes/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'>
+        </tableau-viz>
+        </div>
+        
+    </div>
+    <button id="scrollTopBtn" class="button">
+        Back to Top
+    </button>
+    <script src="testing.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

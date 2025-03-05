@@ -1,0 +1,78 @@
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 200px;
+        scroll-behavior:var();
+        color: #ffffff;
+ 
+    }
+    .content {
+        text-align: left;
+        margin-left: 210px;
+    }
+}
+.card-img-top{
+    width: 100%;
+}
+.button{
+    margin-left: auto;
+    background-color: #2daffa;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 5px;
+}
+h2{
+    color: #2daffa;
+}
+h4 h5{
+    color: #333333;
+}
+.tableau{
+    margin-left: 10px;
+}
+.social-links {
+    
+    height: 70px;
+    width: 150px;
+    align-items: left;
+    justify-content: left;
+    padding: auto;
+   
+  }
+.icon-logo{
+    font-size: 30px;
+    padding: 10px;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.image{
+    height: 100%;
+    width: 100%;
+}
+.icon-image{
+    
+    
+    height: 50px;
+    width: 40px;
+    padding-bottom: 5px;
+    
+}
+.img-thumbnail{
+    width: 500px;
+    height: 500px;
+}
+/* scroll to the top button */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 1000;
+    background-color: #2daffa;
+    border-width: 0px;
+}
+/*-------------------------------------------*/
