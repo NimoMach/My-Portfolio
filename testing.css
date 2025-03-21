@@ -5,14 +5,14 @@
         top: 0;
         left: 0;
         height: 100%;
-        width: 210px;
+        width: 200px;
         scroll-behavior:var();
         color: #ffffff;
  
     }
     .content {
         text-align: left;
-        margin-left: 220px;
+        margin-left: 210px;
     }
 }
 .card-img-top{
@@ -36,7 +36,7 @@ h4 h5{
 }
 .social-links {
     
-    height: 70px;
+    height: 80px;
     width: 200px;
     align-items: left;
     justify-content: left;
