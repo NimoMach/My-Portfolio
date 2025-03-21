@@ -37,7 +37,7 @@ h4 h5{
 .social-links {
     
     height: 70px;
-    width: 150px;
+    width: 200px;
     align-items: left;
     justify-content: left;
     padding: auto;
@@ -45,7 +45,7 @@ h4 h5{
   }
 .icon-logo{
     font-size: 30px;
-    padding: 10px;
+    padding: 5px;
     color: #ffffff;
     padding-top: 50px;
 }
@@ -56,7 +56,7 @@ h4 h5{
 .icon-image{
     
     
-    height: 50px;
+    height: 40px;
     width: 40px;
     padding-bottom: 5px;
     
